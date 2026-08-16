@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    run-on: ubuntu-linux
+    runs-on: ubuntu-linux
 
     steps:
       - name: Checkout Code
